@@ -7,7 +7,7 @@ $(document).ready(function() {
     ("ul").prepend("<li>Goodbye!</li>");
   });
 
-  $("button#stop")click(function() {
+  $("button#stop").click(function() {
     ("ul").prepend("<li>Stop copying me!</li>");
   });
 })
